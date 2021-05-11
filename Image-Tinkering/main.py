@@ -9,17 +9,18 @@ from grayscale import convert_to_grayscale
 
 image = img("image.png")
 
-#binarizing image
+# Binarizing image
 threshold = 127
 binarized_image = binarize(image, threshold)
 
-#scaling image
+# Scaling image
 scaled_image = np.array(scale(image, 0.5))
 
-# # Grayscale Image
+# Grayscale Image
 gray_image = convert_to_grayscale(image)
 print(gray_image.shape)
 
+# Grayleveling the image
 graylevel_image = graylevels(gray_image, 8)
 
 plt.imshow(graylevel_image, cmap='gray')

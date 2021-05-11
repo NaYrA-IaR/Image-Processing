@@ -1,5 +1,15 @@
 import numpy as np
 import matplotlib.pyplot as plt
+
+'''
+ Reduce number of graylevels to a certain value, so that we have that many shades of gray.
+ For reducing, we used the octile method, in which we find the number of weight as per given number of gray levels required.
+ Then, matched the number of gray levels to that particular value and changed it to the values as we got from the octiles.
+ E.g. If the value of a particular octile was say x and another was y, then we changed the value of a given pixel to that of x.
+ This is how we reduced the number of gray levels.
+'''
+
+
 def graylevels(img, levels):
     dict = {}
     for y in img:
