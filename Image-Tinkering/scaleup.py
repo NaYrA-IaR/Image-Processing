@@ -1,5 +1,9 @@
 import numpy as np
 
+# Scaling the image as per the given factor.
+# Scaling refers to changing the pixel density.
+
+
 def scale(data, factor=2):
     new_data = list()
     row, column = data.shape[:2] 
@@ -12,5 +16,5 @@ def scale(data, factor=2):
 
         new_data.append(temp)
 
-    return new_data
+    return np.array(new_data)
 

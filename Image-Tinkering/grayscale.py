@@ -10,6 +10,6 @@ def convert_to_grayscale(data):
     
     for r in range(row):
         for c in range(column):
-            new_data[r][c] = data[r][c][0] + data[r][c][1] + data[r][c][2] # Only taking RGB values out of the RGBA format.
+            new_data[r][c] = (data[r][c][0] + data[r][c][1] + data[r][c][2])/3 # Only taking RGB values out of the RGBA format.
 
     return new_data
