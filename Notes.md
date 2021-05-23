@@ -2,14 +2,34 @@
 
 * All digital images are also known as raster image. 
 * Raster images are images that consists of pixels.
+* Stored in Two Formats - Native, Common.
+
+## Image Format 
+
+### Native File Formats
+
+ Not only are there image formats, but many applications have their own native file format. It is important to understand that there is a difference between a native file types   and an image file types.
+
+ An example of a native file type is a .PSD which stands for Photoshop Document. This file is created only by Adobe Photoshop and can retain information such as layers,    adjustments, masks, and other Photoshop adjustments.
+
+### Common Image File Formats 
+
+* TIFF(.tif, .tiff)
+* Bitmap(.bmp)
+* JPEG(.jpg, .jpeg)
+* GIF(.gif)
+* PNG(.png)
+* EPS(.eps)
+* RAW Image Files(.raw, .cr2, .nef, .orf, .sr2, and more)
 
 ## Types of images
 
-Three types of image :-
+### Color Modes :-
 
 * Logical(Binary) - Has 1 byte per pixel where each byte stores either 0(Black) or 255(White).
 * Grayscale - Has 1 byte per pixel. Each pixel can store either 0(Black), 1-254(Grey or its shade) or 255(White).
 * RGB - Has 3 bytes per pixel. Each byte has RGB value i.e. Red, Green and Blue. We can make any color using any of these 3.
+* CMYK - Cyan, Magenta, Yellow, Black are standard ink colors for printing.
 
 ## Unlocking PNG Format :-
 
